@@ -1,0 +1,67 @@
+# Katalon Studio
+.gradle/
+build/
+bin/
+/Reports/
+/.project
+/.classpath
+/.settings/
+/Temp/
+Libs/
+settings/
+
+# Generated JAR files
+Drivers/*.jar
+
+# Temporary test files
+Libs/TempTestCase*.groovy
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# IDE files
+*.swp
+*.swo
+*~
+
+# Log files
+*.log
+
+# Backup files
+*.bak
+*.backup
+*.orig
+
+# Java
+*.class
+*.jar
+*.war
+*.ear
+*.nar
+hs_err_pid*
+
+# Gradle
+.gradle
+build/
+\!gradle/wrapper/gradle-wrapper.jar
+\!**/src/main/**/build/
+\!**/src/test/**/build/
+
+# Maven
+target/
+pom.xml.tag
+pom.xml.releaseBackup
+pom.xml.versionsBackup
+pom.xml.next
+release.properties
+dependency-reduced-pom.xml
+buildNumber.properties
+.mvn/timing.properties
+.mvn/wrapper/maven-wrapper.jar
+EOF < /dev/null
